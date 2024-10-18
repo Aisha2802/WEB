@@ -1,0 +1,57 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+
+.margen {
+    background-color: #EDDEA4;
+    padding: 15px;
+    border-radius: 10px;
+    width: 400px;
+    display: flex; /* Cambiado a flex para alinear elementos internos */
+    flex-direction: column; /* Alinear los hijos en columna */
+    align-items: center; /* Centrar horizontalmente los hijos */
+}
+
+div {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 70%; /* Cambiado a 100% para que llene el contenedor */
+    display: flex; /* Cambiado a flex para centrar elementos */
+    flex-direction: column; /* Alinear los hijos en columna */
+    align-items: center; /* Centrar horizontalmente los hijos */
+}
+
+.imga {
+    width: 80%;
+}
+
+input {
+    width: 100%; /* Hacer que los campos ocupen el 100% del contenedor */
+    padding: 10px; /* Espaciado interno para los campos de entrada */
+    border: 1px solid #ccc; /* Borde para los campos de entrada */
+    border-radius: 5px; /* Bordes redondeados para los campos de entrada */
+}
+
+button {
+    padding: 10px 20px; /* Espaciado interno para el botón */
+    border-radius: 5px; /* Bordes redondeados para el botón */
+    background-color: #B5E2FA; /* Color de fondo para el botón */
+    color: #F7A072; /* Color del texto */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    border-color: white;
+    width: 50%;
+}
+
+button:hover {
+    background-color: #0FA3B1; /* Color de fondo al pasar el mouse */
+}
+
+h1{
+    color: #F7A072;
+}
